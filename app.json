@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "tangles",
+    "slug": "tangles",
+    "scheme": "tangles",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.semz.tangles",
+      "infoPlist": {
+        "CFBundleURLSchemes": "com.googleusercontent.apps.472337114928-d03gkv1d8t9d952a93l6fl8hctu266qh"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.semz.tangles"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5cf8826-3894-42d0-8e99-7cdb79fcd1f3"
+      }
+    }
+  }
+}
